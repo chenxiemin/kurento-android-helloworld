@@ -1,4 +1,4 @@
-package com.example.max.websockettest;
+package com.cxm.kurento;
 
 import android.app.Activity;
 import android.graphics.Point;
@@ -9,14 +9,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.max.websockettest.model.SignalChannel;
-import com.example.max.websockettest.model.XLog;
-import com.example.max.websockettest.model.message.ReceiveIceCandidateMessage;
-import com.example.max.websockettest.model.message.SendIceCandidateMessage;
-import com.example.max.websockettest.model.message.StartMessage;
-import com.example.max.websockettest.model.message.StartResponseMessage;
-import com.example.max.websockettest.model.PeerConnectionParameters;
-import com.example.max.websockettest.model.RtcListener;
+import com.cxm.kurento.model.SignalChannel;
+import com.cxm.kurento.model.XLog;
+import com.cxm.kurento.model.message.ReceiveIceCandidateMessage;
+import com.cxm.kurento.model.message.SendIceCandidateMessage;
+import com.cxm.kurento.model.message.StartMessage;
+import com.cxm.kurento.model.message.StartResponseMessage;
+import com.cxm.kurento.model.PeerConnectionParameters;
+import com.cxm.kurento.model.RtcListener;
 
 import org.webrtc.AudioSource;
 import org.webrtc.DataChannel;

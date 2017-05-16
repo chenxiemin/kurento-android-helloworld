@@ -1,4 +1,4 @@
-package com.example.max.websockettest.model.message;
+package com.cxm.kurento.model.message;
 
 /**
  * Created by xiemchen on 5/12/17.

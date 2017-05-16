@@ -1,4 +1,4 @@
-package com.example.max.websockettest.model;
+package com.cxm.kurento.model;
 
 public class PeerConnectionParameters {
     public final boolean videoCallEnabled;

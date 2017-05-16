@@ -1,4 +1,4 @@
-package com.example.max.websockettest.model;
+package com.cxm.kurento.model;
 
 import org.webrtc.MediaStream;
 

@@ -1,9 +1,9 @@
-package com.example.max.websockettest.model;
+package com.cxm.kurento.model;
 
-import com.example.max.websockettest.model.message.ReceiveIceCandidateMessage;
-import com.example.max.websockettest.model.message.Message;
-import com.example.max.websockettest.model.message.StartResponseMessage;
-import com.example.max.websockettest.model.message.StopMessage;
+import com.cxm.kurento.model.message.ReceiveIceCandidateMessage;
+import com.cxm.kurento.model.message.Message;
+import com.cxm.kurento.model.message.StartResponseMessage;
+import com.cxm.kurento.model.message.StopMessage;
 import com.google.gson.Gson;
 import com.koushikdutta.async.http.AsyncHttpClient;
 import com.koushikdutta.async.http.WebSocket;

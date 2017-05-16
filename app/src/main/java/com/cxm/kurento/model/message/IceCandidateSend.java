@@ -1,4 +1,4 @@
-package com.example.max.websockettest.model.message;
+package com.cxm.kurento.model.message;
 
 import org.webrtc.IceCandidate;
 

@@ -1,4 +1,4 @@
-package com.example.max.websockettest.model.message;
+package com.cxm.kurento.model.message;
 
 import org.webrtc.IceCandidate;
 
@@ -6,7 +6,7 @@ import org.webrtc.IceCandidate;
  * Created by xiemchen on 5/12/17.
  */
 
-public class ReceiveIceCandidateMessage extends Message {
+public class SendIceCandidateMessage extends Message {
     private IceCandidateSend candidate;
 
     public IceCandidateSend getCandidate() {
@@ -17,12 +17,12 @@ public class ReceiveIceCandidateMessage extends Message {
         this.candidate = candidate;
     }
 
-    public ReceiveIceCandidateMessage() {
-        super("iceCandidate");
+    public SendIceCandidateMessage() {
+        super("onIceCandidate");
     }
 
-    public ReceiveIceCandidateMessage(IceCandidate iceCandidate) {
-        super("iceCandidate");
+    public SendIceCandidateMessage(IceCandidate iceCandidate) {
+        super("onIceCandidate");
         this.candidate = new IceCandidateSend(iceCandidate);
     }
 
