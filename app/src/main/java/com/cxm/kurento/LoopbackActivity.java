@@ -42,6 +42,9 @@ public class LoopbackActivity extends Activity implements RtcListener, PeerConne
     private static final String TAG = LoopbackActivity.class.getSimpleName();
 
     private static final String WS_URL = "wss://10.140.203.30:8443/helloworld";
+    private static final String TURN_ADDRESS = "turn:23.83.240.109:3478";
+    private static final String TURN_USERNAME = "name";
+    private static final String TURN_PASSWORD = "pass";
 
     private final static int VIDEO_CALL_SENT = 666;
     private static final String VIDEO_CODEC_VP9 = "VP8";
@@ -129,7 +132,7 @@ public class LoopbackActivity extends Activity implements RtcListener, PeerConne
         // This is my private turn server
         // Please change it to your turn server for your own usage
         List<PeerConnection.IceServer> iceServers = new ArrayList<>();
-        iceServers.add(new PeerConnection.IceServer("turn:23.83.240.109:3478", "name", "pass"));
+        iceServers.add(new PeerConnection.IceServer(TURN_ADDRESS, TURN_USERNAME, TURN_PASSWORD));
 
         MediaConstraints pcConstraints = new MediaConstraints();
         pcConstraints.mandatory.add(new MediaConstraints.KeyValuePair(
