@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<dimen name="list_name_size">48px</dimen>-->
+
+    <dimen name="list_image_size">63dp</dimen>
+
+    <dimen name="list_name_size">16sp</dimen>
+    <!--<dimen name="list_location_size">30px</dimen>-->
+    <dimen name="list_location_size">10sp</dimen>
+    <dimen name="list_description_size">12sp</dimen>
+    <dimen name="list_money_size">10sp</dimen>
+
+
+    <dimen name="settle_text_view_size">13.5sp</dimen>
+    <dimen name="settle_edit_text_size">11.3sp</dimen>
+
+    <dimen name="font_20">20sp</dimen>
+    <dimen name="font_18">18sp</dimen>
+    <dimen name="font_16">16sp</dimen>
+    <dimen name="font_14">14sp</dimen>
+    <dimen name="font_12">12sp</dimen>
+    <dimen name="font_10">10sp</dimen>
+
+
+
+
+</resources>

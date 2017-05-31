@@ -1,3 +1,10 @@
+.idea
+.classpath
+.project
+.gradle
+build
+*.iml
+
 .gradle
 /local.properties
 /.idea
